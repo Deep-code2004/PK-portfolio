@@ -1,6 +1,5 @@
-
+import pkImage from './pk.png';
 import React from 'react';
-
 
 const Hero: React.FC = () => {
   const scrollToServices = () => {
@@ -42,7 +41,7 @@ const Hero: React.FC = () => {
           </div>
           <div className="lg:w-1/2">
             <img
-              src="pk.png"
+              src={pkImage}
               alt="Professional Financial Advisor"
               width="400"
               height="400"
