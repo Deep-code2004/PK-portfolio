@@ -1,7 +1,6 @@
 import React from 'react';
 import pkImage from './pk.png';
 
-
 const Hero: React.FC = () => {
   const scrollToServices = () => {
     document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
