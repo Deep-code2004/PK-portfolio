@@ -1,4 +1,4 @@
-
+import pk1Image from './pk1.jpeg';
 import React from 'react';
 
 const About: React.FC = () => {
@@ -8,10 +8,10 @@ const About: React.FC = () => {
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
                     <div className="lg:w-1/2">
                         <img 
-                            src="pk1.jpeg" 
+                            src={pk1Image}
                             alt="About the advisor"
-                             width="400"
-                             height="400"
+                            width="400"
+                            height="400"
                             className="rounded-2xl shadow-xl object-cover"
                         />
                     </div>
