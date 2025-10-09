@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img src={pkImage} alt="Hero Image" className="w-full h-auto rounded-lg shadow-xl" />
+           <img src={pkImage} alt="Profile" className="w-full h-auto rounded-lg shadow-xl"/>
           </div>
         </div>
       </div>
