@@ -1,4 +1,3 @@
-import pk1Image from './pk1.jpeg';
 import React from 'react';
 
 const About: React.FC = () => {
@@ -7,12 +6,11 @@ const About: React.FC = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
                     <div className="lg:w-1/2">
-                        <img 
-                            src={pk1Image}
+                        <img
+                            src="https://via.placeholder.com/400x400?text=Advisor+Photo"
                             alt="About the advisor"
-                            width="400"
-                            height="400"
-                            className="rounded-2xl shadow-xl object-cover"
+                        width="400"
+                        height="400"
                         />
                     </div>
                     <div className="lg:w-1/2 text-center lg:text-left">
