@@ -1,5 +1,5 @@
-
 import React from 'react';
+import pkImage from './pk.png';
 
 
 const Hero: React.FC = () => {
@@ -41,13 +41,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img
-              src="pk.png"
-              alt="Professional Financial Advisor"
-              width="400"
-              height="400"
-              className="rounded-2xl shadow-2xl object-cover"
-            />
+            <img src={pkImage} alt="Hero Image" className="w-full h-auto rounded-lg shadow-xl" />
           </div>
         </div>
       </div>

@@ -1,0 +1,2 @@
+- [x] Import pk.png image in components/Hero.tsx
+- [x] Update img src attribute to use the imported image variable
