@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -6,17 +7,17 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="bg-white py-10 sm:py-16 lg:py-20">
+    <section className="bg-white py-20 sm:py-24 lg:py-32">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-12">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-display text-neutral-900 leading-tight">
               Your Trusted Partner in <span className="text-primary">Financial Security</span>
             </h1>
-            <p className="mt-4 text-xl font-display text-neutral-600 max-w-xl">
+            <p className="mt-4 text-xl font-display text-neutral-600 max-w-xl mx-auto lg:mx-0">
               Securing your financial future, one step at a time.
             </p>
-            <p className="mt-6 text-lg text-neutral-700 max-w-xl">
+            <p className="mt-6 text-lg text-neutral-700 max-w-xl mx-auto lg:mx-0">
               Expert guidance in insurance, loans, and investments to help you achieve your financial goals and protect what matters most.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -39,13 +40,10 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img
-              src="/PK-portfolio/pk.png"
-              alt="Hero Image"
-              width={600}
-              height={500}
-              loading="lazy"
-              className="w-full max-w-md mx-auto lg:mx-0 rounded-lg shadow-xl object-cover"
+            <img 
+              src="https://picsum.photos/seed/financepro/600/500" 
+              alt="Professional Financial Advisor"
+              className="rounded-2xl shadow-2xl object-cover w-full h-auto"
             />
           </div>
         </div>
