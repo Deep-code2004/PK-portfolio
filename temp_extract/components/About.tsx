@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const About: React.FC = () => {
@@ -6,9 +7,10 @@ const About: React.FC = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
                     <div className="lg:w-1/2">
-                        <img
-                            src="/pk1.jpeg"
+                        <img 
+                            src="https://picsum.photos/seed/aboutpro/500/550" 
                             alt="About the advisor"
+                            className="rounded-2xl shadow-xl object-cover w-full h-auto"
                         />
                     </div>
                     <div className="lg:w-1/2 text-center lg:text-left">
